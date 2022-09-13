@@ -1,8 +1,10 @@
-#iiclude <stdio.h>
 /**
  * main - program that prints all possible different combinations of 2 digits
  * Return: 0
  */
+
+#include <stdio.h>
+
 int main(void)
 {
 	int c = 0;
@@ -23,13 +25,5 @@ int main(void)
 			{
 				putchar(',');
 				putchar(' ');
-			}
-		}
-		c++;
-	}
-putchar('\n');
-return (0);
-}
 
-			
-				
+						
